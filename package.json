@@ -1,0 +1,38 @@
+{
+  "name": "templatly",
+  "version": "0.1.0",
+  "description": "Use Template Strings for everythin.",
+  "repository": "trekjs/templatly",
+  "main": "lib/index.js",
+  "author": "fundon cfddream@gmail.com",
+  "license": "MIT",
+  "keywords": [
+    "templatly",
+    "template strings",
+    "template",
+    "strings",
+    "es6"
+  ],
+  "scripts": {
+    "compile": "babel src --out-dir lib --copy-files",
+    "prepublish": "npm run compile",
+    "test": "mocha --require babel/register --require should --reporter spec --bail --check-leaks test/**/*.test.js",
+    "test-ci": "babel-node node_modules/.bin/isparta cover node_modules/.bin/_mocha --report lcovonly -- --require should --reporter spec --check-leaks test/**/*.test.js",
+    "test-cov": "babel-node node_modules/.bin/isparta cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/**/*.test.js"
+  },
+  "devDependencies": {
+    "isparta": "^3.x",
+    "istanbul": "^0.3.x",
+    "mocha": "^2.3.0",
+    "should": "^7.1.0"
+  },
+  "files": [
+    "HISTORY.md",
+    "LICENSE",
+    "lib"
+  ],
+  "engines": {
+    "iojs": "*",
+    "node": ">= 0.8.0"
+  }
+}
