@@ -1,6 +1,6 @@
 # templatly
 
-Use Template strings for everything.
+Use Template strings for everywhere.
 
   [![NPM version][npm-img]][npm-url]
   [![Build status][travis-img]][travis-url]

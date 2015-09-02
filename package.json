@@ -1,7 +1,7 @@
 {
   "name": "templatly",
   "version": "0.1.2",
-  "description": "Use Template Strings for everythin.",
+  "description": "Use Template Strings for everywhere.",
   "repository": "trekjs/templatly",
   "main": "lib/index.js",
   "author": "fundon cfddream@gmail.com",
