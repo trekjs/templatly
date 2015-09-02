@@ -1,6 +1,6 @@
 {
   "name": "templatly",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Use Template Strings for everythin.",
   "repository": "trekjs/templatly",
   "main": "lib/index.js",
