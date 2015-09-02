@@ -15,7 +15,7 @@ describe('#render()', () => {
         DATABASE_URL: 'user@host'
       }
     });
-    context.should.be.equal('[database]\nurl = user@host\n');
+    context.should.be.equal("[database]\nurl = 'user@host'\n");
   });
 
 });

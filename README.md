@@ -12,9 +12,11 @@ Use Template strings for everything.
 
 ## Usage
 
+`config.toml`
+
 ```toml
 [database]
-url = ${env.DATABASE_URL}
+url = '${env.DATABASE_URL}'
 ```
 
 ```js
@@ -23,8 +25,17 @@ import templatly from 'templatly';
 
 let config = fs.readFileSync('config.toml', 'utf-8');
 let context = templatly(config, {
-  env: process.env
+  env: {
+    DATABASE_URL: 'user@host'
+  }
 });
+
+// context
+/*
+[database]
+url = 'user@host'
+*/
+
 // ...
 ```
 
