@@ -43,8 +43,8 @@ url = 'user@host'
 
   [MIT](LICENSE)
 
-[npm-img]: https://img.shields.io/npm/v/trek-templatly.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/trek-templatly
+[npm-img]: https://img.shields.io/npm/v/templatly.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/templatly
 [travis-img]: https://img.shields.io/travis/trekjs/templatly.svg?style=flat-square
 [travis-url]: https://travis-ci.org/trekjs/templatly
 [coveralls-img]: https://img.shields.io/coveralls/trekjs/templatly.svg?style=flat-square
