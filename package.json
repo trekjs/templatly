@@ -21,6 +21,7 @@
     "test-cov": "babel-node node_modules/.bin/isparta cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/**/*.test.js"
   },
   "devDependencies": {
+    "babel": "^5.8.23",
     "isparta": "^3.x",
     "istanbul": "^0.3.x",
     "mocha": "^2.3.0",
